@@ -1,0 +1,55 @@
+<html>
+
+    <head>
+        <title>Contacto</title>
+  
+      <nav><center>
+            <a href="FJPL_index.html">inicio</a>
+    
+            <a href="FJPL_Nosotros.html">Nosotros</a>
+          
+            <a href="FJPL_Servicios.html">Servicios</a>
+       
+            <a href="FJPL_Contacto.html">Contacto</a>
+            <a href="FJPL_registros.html">Registros</a>
+      </center>
+        </nav>
+  |<link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+<form method="post" action="Resultado.html" class="formRegis">
+  <h3>Pagina de Registro</h3>
+<div class="Nom">
+
+<label for="nombre">Nombre :    </label><div>
+<!----Name representa el nombre que de lo que llega al servidor, mientras que la ID, representa el nombre interno, que tiene al dezplazarse la informacion.
+  ---->
+  <input class="entrada" type="text" name="nom" id="Nombre" placeholder="Nombre">
+</div>
+<label for="Apellido">Apellido:</label>
+<div class="Ape">
+<input class="entrada" type="text" name="Ape" id="Apellido" placeholder="Apellido"></div>
+<label for="Genero">Genero: </label>
+<input class="wa" type="Radio" name="MasG" id="Masculino">
+<label for ="Masculino"
+>Masculino</label> 
+<input class="wa" type="Radio" name="FemG" id="Femenino">
+<label for="Femenino">Femenino</label><br>
+<div class="Correo">
+<label for="Correo">Correo:</label>
+<input class="entrada" type="Email" name="MAIL" id="Correo" placeholder="Correo"><br>
+</div>
+<div class="Cont">
+  <label for="Contraseña">Contrasena</label>
+  <input class="entrada" type="password" name="pass" id="Contrasena" placeholder="Contrasena">
+</div>
+<label for="Fecha">Fecha Nac:</label>
+<input class="entrada" type="date" name="FECHA_NACIMIENTO" id="Fecha"><br>
+
+<label for="Direccion">Direccion:</label><br>
+<textarea class="entrada_2" name="Direc" id="Direccion" placeholder="__________________"cols="609" rows="10"></textarea><br>
+<input class="entrada_2" type="submit" value ="Enviar">
+</form>
+   </body>
+</html>
+
